@@ -41,9 +41,25 @@ ol, ul {
 	padding-bottom: 3rem;
 }
 
+#words{
+	text-align: center;
+}
+
+#skills{
+	text-emphasis: center;
+}
+
 .language{
 	height: 4rem;
 	margin-left: 1rem;
+}
+
+.work{
+	margin: 5px;
+	/* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.04);
+  border-top-color: grey;
+  transition: all .3s ease-in-out; */
 }
 
 blockquote, q {
@@ -965,6 +981,8 @@ input, select, textarea {
 	.image {
 		position: relative;
 		display: inline-block;
+		box-shadow: 1px 1px 5px  black;
+		border-radius: 5px;
 	}
 
 		.image:before {
@@ -1436,8 +1454,9 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		width: 45em;
+		width: 90%;
 		max-width: 100%;
+		justify-content: center;
 		margin: 0 auto 2em auto;
 	}
 
@@ -1450,7 +1469,7 @@ input, select, textarea {
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			width: 50%;
+			width: 45%;
 			position: relative;
 			opacity: 1.0;
 		}
