@@ -37,6 +37,10 @@ ol, ul {
 	list-style: none;
 }
 
+#words{
+	text-align: center;
+}
+
 #hey{
 	padding-bottom: 3rem;
 }
