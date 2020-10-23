@@ -43,6 +43,12 @@ ol, ul {
 
 #hey{
 	padding-bottom: 3rem;
+
+}
+
+.hey{
+	color: white;
+	 text-shadow: 0 2px 2px black;
 }
 
 .skills{
